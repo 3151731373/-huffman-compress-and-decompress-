@@ -1,0 +1,13 @@
+-huffman-compress-and-decompress-
+文件压缩的步骤：
+（1）统计字符个数 （字符的个数对应权值）
+（2）生成Huffman树
+（3）生成Huffman编码-huffman-compress-and-decompress-
+压缩 
+（1）：压缩之前写入字符及其出现的次数（结构体），方便解压缩时重建Huffman树。 
+（2）：进行压缩。
+
+文件解压缩的步骤：
+（1）打开压缩文件
+（2）重建Huffman树
+（3）进行解压缩
